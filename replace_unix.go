@@ -1,3 +1,5 @@
+// +build !windows,!android,!plan9,!nacl
+
 package mockfn
 
 import (
