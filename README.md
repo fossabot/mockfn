@@ -1,4 +1,6 @@
 # Go mock function
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyougg%2Fmockfn.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyougg%2Fmockfn?ref=badge_shield)
+
 
 ## Using mockfn
 
@@ -104,3 +106,6 @@ func main() {
 2. mockfn won't work on some security-oriented operating system that don't allow memory pages to be both write and execute at the same time. With the current approach there's not really a reliable fix for this.
 3. mockfn is not thread safe, Or any kind of safe.
 4. mockfn is not recommend use it outside of a testing environment.
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyougg%2Fmockfn.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyougg%2Fmockfn?ref=badge_large)
